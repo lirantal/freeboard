@@ -1,0 +1,27 @@
+{
+	"name": "deviboard",
+	"description": "Full-Stack Freeboard edition - Dashboard UI + Server for acting as agent to query data and save locally",
+	"version": "1.0.0",
+	"private": false,
+	"author": {
+		"name": "Liran Tal",
+		"email": "liran.tal@gmail.com",
+		"url": "http://www.enginx.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lirantal/freeboard.git"
+	},
+	"dependencies": {
+		"express": "latest",
+		"express-session": "latest",
+		"body-parser": "latest",
+		"cookie-parser": "latest",
+		"compression": "latest",
+		"method-override": "latest",
+		"connect-mongo": "latest",
+		"connect-flash": "latest",
+		"mongoose": "latest",
+		"swig": "latest"
+	}
+}
