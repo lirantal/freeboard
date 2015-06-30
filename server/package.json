@@ -23,6 +23,7 @@
 		"connect-flash": "latest",
 		"mongoose": "latest",
 		"swig": "latest",
-		"lodash": "latest"
+		"lodash": "latest",
+		"mysql": "latest"
 	}
 }

@@ -35,7 +35,6 @@ module.exports = function(db) {
 		});
 	});
 
-
 	app.get('/api/test', function(req, res) {
 		res.status(200).send({
 			'var': 'value'
@@ -48,11 +47,11 @@ module.exports = function(db) {
 	  });
 	});
 
-	app.use(function(req, res) {
-		res.status(404).send({
-			error: 'Not Found'
-		});
-	});
+	// app.use(function(req, res) {
+	// 	res.status(404).send({
+	// 		error: 'Not Found'
+	// 	});
+	// });
 
 	return app;
 

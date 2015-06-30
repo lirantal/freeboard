@@ -1,7 +1,8 @@
 'use strict';
 
 var _ = require('lodash'),
-	fs = require('fs');
+	fs = require('fs'),
+	mysql = require('mysql');
 
 var conf = {
 	db: {
@@ -15,5 +16,9 @@ var conf = {
 };
 
 var config = _.merge(conf, (fs.existsSync('./config/local.js') && require('./local.js')) || {} );
+
+if (config.mysql) {
+	config.mysqlPool = mysql.createPool(config.mysql);
+}
 
 module.exports = config;
