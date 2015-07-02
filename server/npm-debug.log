@@ -1,0 +1,497 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json deviborad@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/home/superman/websites/lirantal-freeboard.git/server',
+7 verbose install   [ 'express',
+7 verbose install     'express-session',
+7 verbose install     'body-parser',
+7 verbose install     'cookie-parser',
+7 verbose install     'compression',
+7 verbose install     'method-override',
+7 verbose install     'connect-mongo',
+7 verbose install     'connect-flash',
+7 verbose install     'mongoose' ] ]
+8 info preinstall deviborad@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'body-parser@latest', null ]
+11 verbose cache add name=undefined spec="body-parser@latest" args=["body-parser@latest",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'body-parser@latest',
+12 verbose parsed url   path: 'body-parser@latest',
+12 verbose parsed url   href: 'body-parser@latest' }
+13 verbose cache add [ 'cookie-parser@latest', null ]
+14 verbose cache add name=undefined spec="cookie-parser@latest" args=["cookie-parser@latest",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'cookie-parser@latest',
+15 verbose parsed url   path: 'cookie-parser@latest',
+15 verbose parsed url   href: 'cookie-parser@latest' }
+16 verbose cache add [ 'compression@latest', null ]
+17 verbose cache add name=undefined spec="compression@latest" args=["compression@latest",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'compression@latest',
+18 verbose parsed url   path: 'compression@latest',
+18 verbose parsed url   href: 'compression@latest' }
+19 verbose cache add [ 'method-override@latest', null ]
+20 verbose cache add name=undefined spec="method-override@latest" args=["method-override@latest",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'method-override@latest',
+21 verbose parsed url   path: 'method-override@latest',
+21 verbose parsed url   href: 'method-override@latest' }
+22 verbose cache add name="body-parser" spec="latest" args=["body-parser","latest"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'latest',
+23 verbose parsed url   path: 'latest',
+23 verbose parsed url   href: 'latest' }
+24 verbose addNamed [ 'body-parser', 'latest' ]
+25 verbose addNamed [ null, null ]
+26 verbose cache add name="cookie-parser" spec="latest" args=["cookie-parser","latest"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'latest',
+27 verbose parsed url   path: 'latest',
+27 verbose parsed url   href: 'latest' }
+28 verbose addNamed [ 'cookie-parser', 'latest' ]
+29 verbose addNamed [ null, null ]
+30 verbose cache add name="compression" spec="latest" args=["compression","latest"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'latest',
+31 verbose parsed url   path: 'latest',
+31 verbose parsed url   href: 'latest' }
+32 verbose addNamed [ 'compression', 'latest' ]
+33 verbose addNamed [ null, null ]
+34 verbose cache add [ 'connect-mongo@latest', null ]
+35 verbose cache add name=undefined spec="connect-mongo@latest" args=["connect-mongo@latest",null]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'connect-mongo@latest',
+36 verbose parsed url   path: 'connect-mongo@latest',
+36 verbose parsed url   href: 'connect-mongo@latest' }
+37 verbose cache add [ 'connect-flash@latest', null ]
+38 verbose cache add name=undefined spec="connect-flash@latest" args=["connect-flash@latest",null]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: 'connect-flash@latest',
+39 verbose parsed url   path: 'connect-flash@latest',
+39 verbose parsed url   href: 'connect-flash@latest' }
+40 verbose cache add [ 'mongoose@latest', null ]
+41 verbose cache add name=undefined spec="mongoose@latest" args=["mongoose@latest",null]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'mongoose@latest',
+42 verbose parsed url   path: 'mongoose@latest',
+42 verbose parsed url   href: 'mongoose@latest' }
+43 verbose cache add name="method-override" spec="latest" args=["method-override","latest"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'latest',
+44 verbose parsed url   path: 'latest',
+44 verbose parsed url   href: 'latest' }
+45 verbose addNamed [ 'method-override', 'latest' ]
+46 verbose addNamed [ null, null ]
+47 silly lockFile 88319797-body-parser-latest body-parser@latest
+48 verbose lock body-parser@latest /home/superman/.npm/88319797-body-parser-latest.lock
+49 silly lockFile a995bebb-cookie-parser-latest cookie-parser@latest
+50 verbose lock cookie-parser@latest /home/superman/.npm/a995bebb-cookie-parser-latest.lock
+51 silly lockFile 890def68-compression-latest compression@latest
+52 verbose lock compression@latest /home/superman/.npm/890def68-compression-latest.lock
+53 silly lockFile 2cb106a1-method-override-latest method-override@latest
+54 verbose lock method-override@latest /home/superman/.npm/2cb106a1-method-override-latest.lock
+55 verbose cache add name="connect-mongo" spec="latest" args=["connect-mongo","latest"]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'latest',
+56 verbose parsed url   path: 'latest',
+56 verbose parsed url   href: 'latest' }
+57 verbose addNamed [ 'connect-mongo', 'latest' ]
+58 verbose addNamed [ null, null ]
+59 silly lockFile 02f15c80-connect-mongo-latest connect-mongo@latest
+60 verbose lock connect-mongo@latest /home/superman/.npm/02f15c80-connect-mongo-latest.lock
+61 verbose cache add name="connect-flash" spec="latest" args=["connect-flash","latest"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'latest',
+62 verbose parsed url   path: 'latest',
+62 verbose parsed url   href: 'latest' }
+63 verbose addNamed [ 'connect-flash', 'latest' ]
+64 verbose addNamed [ null, null ]
+65 silly lockFile feedbc7e-connect-flash-latest connect-flash@latest
+66 verbose lock connect-flash@latest /home/superman/.npm/feedbc7e-connect-flash-latest.lock
+67 verbose cache add name="mongoose" spec="latest" args=["mongoose","latest"]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'latest',
+68 verbose parsed url   path: 'latest',
+68 verbose parsed url   href: 'latest' }
+69 verbose addNamed [ 'mongoose', 'latest' ]
+70 verbose addNamed [ null, null ]
+71 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+72 verbose lock mongoose@latest /home/superman/.npm/73e949f4-mongoose-latest.lock
+73 verbose cache add [ 'express@latest', null ]
+74 verbose cache add name=undefined spec="express@latest" args=["express@latest",null]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'express@latest',
+75 verbose parsed url   path: 'express@latest',
+75 verbose parsed url   href: 'express@latest' }
+76 verbose cache add [ 'express-session@latest', null ]
+77 verbose cache add name=undefined spec="express-session@latest" args=["express-session@latest",null]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: 'express-session@latest',
+78 verbose parsed url   path: 'express-session@latest',
+78 verbose parsed url   href: 'express-session@latest' }
+79 verbose cache add name="express" spec="latest" args=["express","latest"]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'latest',
+80 verbose parsed url   path: 'latest',
+80 verbose parsed url   href: 'latest' }
+81 verbose addNamed [ 'express', 'latest' ]
+82 verbose addNamed [ null, null ]
+83 silly lockFile c30a01ab-express-latest express@latest
+84 verbose lock express@latest /home/superman/.npm/c30a01ab-express-latest.lock
+85 verbose cache add name="express-session" spec="latest" args=["express-session","latest"]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: 'latest',
+86 verbose parsed url   path: 'latest',
+86 verbose parsed url   href: 'latest' }
+87 verbose addNamed [ 'express-session', 'latest' ]
+88 verbose addNamed [ null, null ]
+89 silly lockFile fa47ee87-express-session-latest express-session@latest
+90 verbose lock express-session@latest /home/superman/.npm/fa47ee87-express-session-latest.lock
+91 info addNameTag [ 'cookie-parser', 'latest' ]
+92 info addNameTag [ 'compression', 'latest' ]
+93 info addNameTag [ 'method-override', 'latest' ]
+94 info addNameTag [ 'connect-mongo', 'latest' ]
+95 info addNameTag [ 'connect-flash', 'latest' ]
+96 info addNameTag [ 'mongoose', 'latest' ]
+97 info addNameTag [ 'body-parser', 'latest' ]
+98 verbose request where is /cookie-parser
+99 verbose request registry https://registry.npmjs.org/
+100 verbose request id a7a2e5745b11b7f2
+101 verbose url raw /cookie-parser
+102 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-parser' ]
+103 verbose url resolved https://registry.npmjs.org/cookie-parser
+104 verbose request where is https://registry.npmjs.org/cookie-parser
+105 info trying registry request attempt 1 at 21:51:51
+106 http GET https://registry.npmjs.org/cookie-parser
+107 verbose request where is /compression
+108 verbose request registry https://registry.npmjs.org/
+109 verbose url raw /compression
+110 verbose url resolving [ 'https://registry.npmjs.org/', './compression' ]
+111 verbose url resolved https://registry.npmjs.org/compression
+112 verbose request where is https://registry.npmjs.org/compression
+113 info trying registry request attempt 1 at 21:51:51
+114 http GET https://registry.npmjs.org/compression
+115 verbose request where is /method-override
+116 verbose request registry https://registry.npmjs.org/
+117 verbose url raw /method-override
+118 verbose url resolving [ 'https://registry.npmjs.org/', './method-override' ]
+119 verbose url resolved https://registry.npmjs.org/method-override
+120 verbose request where is https://registry.npmjs.org/method-override
+121 info trying registry request attempt 1 at 21:51:51
+122 http GET https://registry.npmjs.org/method-override
+123 verbose request where is /connect-flash
+124 verbose request registry https://registry.npmjs.org/
+125 verbose url raw /connect-flash
+126 verbose url resolving [ 'https://registry.npmjs.org/', './connect-flash' ]
+127 verbose url resolved https://registry.npmjs.org/connect-flash
+128 verbose request where is https://registry.npmjs.org/connect-flash
+129 info trying registry request attempt 1 at 21:51:51
+130 http GET https://registry.npmjs.org/connect-flash
+131 verbose request where is /mongoose
+132 verbose request registry https://registry.npmjs.org/
+133 verbose url raw /mongoose
+134 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+135 verbose url resolved https://registry.npmjs.org/mongoose
+136 verbose request where is https://registry.npmjs.org/mongoose
+137 info trying registry request attempt 1 at 21:51:51
+138 http GET https://registry.npmjs.org/mongoose
+139 verbose request where is /body-parser
+140 verbose request registry https://registry.npmjs.org/
+141 verbose url raw /body-parser
+142 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+143 verbose url resolved https://registry.npmjs.org/body-parser
+144 verbose request where is https://registry.npmjs.org/body-parser
+145 info trying registry request attempt 1 at 21:51:51
+146 http GET https://registry.npmjs.org/body-parser
+147 info addNameTag [ 'express', 'latest' ]
+148 info addNameTag [ 'express-session', 'latest' ]
+149 verbose request where is /express
+150 verbose request registry https://registry.npmjs.org/
+151 verbose url raw /express
+152 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+153 verbose url resolved https://registry.npmjs.org/express
+154 verbose request where is https://registry.npmjs.org/express
+155 info trying registry request attempt 1 at 21:51:52
+156 http GET https://registry.npmjs.org/express
+157 verbose request where is /express-session
+158 verbose request registry https://registry.npmjs.org/
+159 verbose url raw /express-session
+160 verbose url resolving [ 'https://registry.npmjs.org/', './express-session' ]
+161 verbose url resolved https://registry.npmjs.org/express-session
+162 verbose request where is https://registry.npmjs.org/express-session
+163 info trying registry request attempt 1 at 21:51:52
+164 http GET https://registry.npmjs.org/express-session
+165 verbose request where is /connect-mongo
+166 verbose request registry https://registry.npmjs.org/
+167 verbose url raw /connect-mongo
+168 verbose url resolving [ 'https://registry.npmjs.org/', './connect-mongo' ]
+169 verbose url resolved https://registry.npmjs.org/connect-mongo
+170 verbose request where is https://registry.npmjs.org/connect-mongo
+171 info trying registry request attempt 1 at 21:51:52
+172 verbose etag "8XPJ5ASPIZSGCWJ754QGRPZCL"
+173 http GET https://registry.npmjs.org/connect-mongo
+174 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+175 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+176 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+177 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+178 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+179 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+180 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+181 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+182 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+183 info trying registry request attempt 2 at 21:54:09
+184 http GET https://registry.npmjs.org/connect-flash
+185 info trying registry request attempt 2 at 21:54:09
+186 http GET https://registry.npmjs.org/compression
+187 info trying registry request attempt 2 at 21:54:09
+188 http GET https://registry.npmjs.org/cookie-parser
+189 info trying registry request attempt 2 at 21:54:09
+190 http GET https://registry.npmjs.org/mongoose
+191 info trying registry request attempt 2 at 21:54:09
+192 http GET https://registry.npmjs.org/body-parser
+193 info trying registry request attempt 2 at 21:54:09
+194 http GET https://registry.npmjs.org/express
+195 info trying registry request attempt 2 at 21:54:09
+196 http GET https://registry.npmjs.org/express-session
+197 info trying registry request attempt 2 at 21:54:09
+198 verbose etag "8XPJ5ASPIZSGCWJ754QGRPZCL"
+199 http GET https://registry.npmjs.org/connect-mongo
+200 info trying registry request attempt 2 at 21:54:09
+201 http GET https://registry.npmjs.org/method-override
+202 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+203 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+204 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+205 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+206 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+207 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+208 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+209 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+210 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+211 info trying registry request attempt 3 at 21:57:16
+212 http GET https://registry.npmjs.org/connect-flash
+213 info trying registry request attempt 3 at 21:57:16
+214 http GET https://registry.npmjs.org/method-override
+215 info trying registry request attempt 3 at 21:57:16
+216 http GET https://registry.npmjs.org/compression
+217 info trying registry request attempt 3 at 21:57:16
+218 http GET https://registry.npmjs.org/body-parser
+219 info trying registry request attempt 3 at 21:57:16
+220 http GET https://registry.npmjs.org/express
+221 info trying registry request attempt 3 at 21:57:16
+222 http GET https://registry.npmjs.org/express-session
+223 info trying registry request attempt 3 at 21:57:16
+224 verbose etag "8XPJ5ASPIZSGCWJ754QGRPZCL"
+225 http GET https://registry.npmjs.org/connect-mongo
+226 info trying registry request attempt 3 at 21:57:16
+227 http GET https://registry.npmjs.org/mongoose
+228 info trying registry request attempt 3 at 21:57:17
+229 http GET https://registry.npmjs.org/cookie-parser
+230 silly lockFile fa47ee87-express-session-latest express-session@latest
+231 silly lockFile fa47ee87-express-session-latest express-session@latest
+232 silly lockFile 88319797-body-parser-latest body-parser@latest
+233 silly lockFile 88319797-body-parser-latest body-parser@latest
+234 silly lockFile c30a01ab-express-latest express@latest
+235 silly lockFile c30a01ab-express-latest express@latest
+236 silly lockFile feedbc7e-connect-flash-latest connect-flash@latest
+237 silly lockFile feedbc7e-connect-flash-latest connect-flash@latest
+238 silly registry.get cb [ 304, undefined ]
+239 verbose etag https://registry.npmjs.org/connect-mongo from cache
+240 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+241 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+242 silly lockFile a995bebb-cookie-parser-latest cookie-parser@latest
+243 silly lockFile a995bebb-cookie-parser-latest cookie-parser@latest
+244 silly lockFile 2cb106a1-method-override-latest method-override@latest
+245 silly lockFile 2cb106a1-method-override-latest method-override@latest
+246 silly lockFile 890def68-compression-latest compression@latest
+247 silly lockFile 890def68-compression-latest compression@latest
+248 verbose addNamed [ 'connect-mongo', '0.7.0' ]
+249 verbose addNamed [ '0.7.0', '0.7.0' ]
+250 silly lockFile 677a1d4d-connect-mongo-0-7-0 connect-mongo@0.7.0
+251 verbose lock connect-mongo@0.7.0 /home/superman/.npm/677a1d4d-connect-mongo-0-7-0.lock
+252 silly lockFile 25d23f7a-ct-mongo-connect-mongo-0-7-0-tgz https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+253 verbose lock https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz /home/superman/.npm/25d23f7a-ct-mongo-connect-mongo-0-7-0-tgz.lock
+254 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz',
+254 verbose addRemoteTarball   '8870bbebabff6c99aab77c8ad9787abe730b62db' ]
+255 info retry fetch attempt 1 at 21:59:24
+256 verbose fetch to= /tmp/npm-5784-72-F0jEq/registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+257 http GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+258 error fetch failed https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+259 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+260 info retry fetch attempt 2 at 22:01:41
+261 verbose fetch to= /tmp/npm-5784-72-F0jEq/registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+262 http GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+263 error fetch failed https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+264 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT
+265 info retry fetch attempt 3 at 22:04:49
+266 verbose fetch to= /tmp/npm-5784-72-F0jEq/registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+267 http GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+268 error fetch failed https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+269 silly lockFile 25d23f7a-ct-mongo-connect-mongo-0-7-0-tgz https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+270 silly lockFile 25d23f7a-ct-mongo-connect-mongo-0-7-0-tgz https://registry.npmjs.org/connect-mongo/-/connect-mongo-0.7.0.tgz
+271 silly lockFile 677a1d4d-connect-mongo-0-7-0 connect-mongo@0.7.0
+272 silly lockFile 677a1d4d-connect-mongo-0-7-0 connect-mongo@0.7.0
+273 silly lockFile 02f15c80-connect-mongo-latest connect-mongo@latest
+274 silly lockFile 02f15c80-connect-mongo-latest connect-mongo@latest
+275 error network tunneling socket could not be established, cause=connect ETIMEDOUT
+275 error network This is most likely not a problem with npm itself
+275 error network and is related to network connectivity.
+275 error network In most cases you are behind a proxy or have bad network settings.
+275 error network
+275 error network If you are behind a proxy, please make sure that the
+275 error network 'proxy' config is set properly.  See: 'npm help config'
+276 error System Linux 3.13.0-27-generic
+277 error command "/usr/bin/node" "/usr/bin/npm" "install"
+278 error cwd /home/superman/websites/lirantal-freeboard.git/server
+279 error node -v v0.10.33
+280 error npm -v 1.4.28
+281 error code ECONNRESET
+282 verbose exit [ 1, true ]
